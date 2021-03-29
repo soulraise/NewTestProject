@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <details>
+            <summary>
+                меню
+            </summary>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Головна</a></li>
+                    <li><a href="./rezume.html">Моє резюме</a></li>
+                    <li>Блог<ol>
+                            <li><a href="./semantik.html">Семантика</a></li>
+                            <li><a href="./frontend.html">Фронтенд</a></li>
+                        </ol>
+                    </li>
+                    <li><a href="./forma.html">Форма</a></li>
+                </ul>
+            </nav>
+        </details>
+    </header>
+    <h1>Анкета посетитиля</h1>
+    <form action="./index.html" method="GET">
+        <legend>Контактная информация</legend>
+        <fieldset>
+            <table>
+                <tr>
+                    <td><label for="fname">Имя</label></td>
+                    <td><input type="text" id="fname" name="fname" placeholder="Ваше имя" required></td>
+                </tr>
+                <tr>
+                    <td><label for="phone">Телефон</label></td>
+                    <td><input type="tel" id="phone" name="phone" placeholder="Ваш номер телефона" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" id="email" name="email" placeholder="Ваш Email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="lostDate">Дата посещения</label></td>
+                    <td><input type="date" id="lostDate" name="lostDate" required></td>
+                </tr>
+            </table>
+        </fieldset>
+        <legend>Персональная информация</legend>
+        <fieldset>
+            <table>
+                <tr>
+                    <td><label for="age">Возраст</label></td>
+                    <td><input type="number" min="1" max="100" step="1" id="age" name="age"
+                            placeholder="Сколько Вам лет"></td>
+                </tr>
+                <tr>
+                    <td><label for="cock">Любимая кухня</label></td>
+                    <td><select name="cock" id="cock">
+                            <option value="japan">Японскую</option>
+                            <option value="rus">Русскую</option>
+                            <option value="uk">Украинскую</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td><label for="quest">Какие блюда Вы хотели <br> бы увидеть в меню?</label></td>
+                    <td><textarea rows="5" cols="30" id="quest" name="quest"></textarea></td>
+                </tr>
+
+            </table>
+        </fieldset>
+        <legend>Оценка вашего заведения</legend>
+        <fieldset>
+            <h3>Почему Вы выбрали наше заведение?</h3>
+            <label><input type="radio" name="quest2" checked value="answer1">Недалеко от дома/работы</label><br>
+            <label><input type="radio" name="quest2" value="answer2">Увидел рекламу</label><br>
+            <label><input type="radio" name="quest2" value="answer3">Посоветовали</label><br>
+            <label><input type="radio" name="quest2" value="answer4">Оптимальное соотношение цены и качества</label>
+            <h3>Вы будете рекомендовать наше заведение своим знакомым?</h3>
+            <label><input type="radio" name="quest3" checked value="yes">Да</label><br>
+            <label><input type="radio" name="quest3" value="no">Нет</label><br>
+        </fieldset>
+
+        <input type="submit">
+    </form>
+</body>
+
+</html>

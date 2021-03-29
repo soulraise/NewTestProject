@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Семантика</title>
+    <link href="index.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <details>
+            <summary>
+                меню
+            </summary>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Головна</a></li>
+                    <li><a href="./rezume.html">Моє резюме</a></li>
+                    <li>Блог<ol>
+                            <li><a href="./semantik.html">Семантика</a></li>
+                            <li><a href="./frontend.html">Фронтенд</a></li>
+                        </ol>
+                    </li>
+                    <li><a href="./forma.html">Форма</a></li>
+                </ul>
+            </nav>
+        </details>
+    </header>
+    <div>
+        <h1>HTML5 Семантичні елементи</h1>
+        <p>Семантичний елемент чітко описує його значення як для браузера, так і для розробника.</p>
+        <p>Приклади не <strong>семантичних</strong> елементів: &lt;div&gt; і &lt;span&gt; - нічого не говорить про його
+            вміст.</p>
+        <p>Приклади <strong>семантичних</strong> елементів:&lt;form&gt;, &lt;table&gt; і &lt;article&gt; - чітко
+            визначає його зміст.</p>
+    </div>
+    <section>
+        <h2>Підтримка браузерів</h2>
+        <div>
+            <img src="./imeg/compatible_chrome.gif" style="padding: 10px" alt="" width="30" tabindex="0">
+            <img src="./imeg/compatible_edge.gif" style="padding: 10px" alt="" width="30" tabindex="0">
+            <img src="./imeg/compatible_firefox.gif" style="padding: 10px" alt="" width="30" tabindex="0">
+            <img src="./imeg/compatible_opera.gif" style="padding: 10px" alt="" width="30" tabindex="0">
+            <img src="./imeg/compatible_safari.gif" style="padding: 10px" alt="" width="30" tabindex="0">
+        </div>
+        <p>Семантичні елементи HTML5 підтримуються у всіх сучасних браузерах.</p>
+        <p>Крім того, ви можете "навчити" старих браузерів, як обробляти "невідомі елементи".</p>
+        <p>Прочитайте про це в <a href="https://html5css.ru/html/html5_browsers.php">підтримці браузера HTML5 .</a></p>
+    </section>
+    <h2>Нові семантичні елементи в HTML5</h2>
+    <p>Багато веб-вузли містять HTML-код, наприклад: &lt;div ID = "NAV"&gt; &lt;div class = "заголовок"&gt; &lt;div ID =
+        "нижній колонтитул"&gt;&lt;/div&gt;</p>
+    <p>для позначення навігації, верхнього і нижнього колонтитулів.</p>
+    <p id="menu">HTML5 пропонує нові семантичні елементи для визначення різних частин веб-сторінки:</p>
+    <ul>
+        <li><a href="#article">&lt;article&gt;</a></li>
+        <li><a href="#aside">&lt;aside&gt;</a></li>
+        <li>&lt;details&gt;</li>
+        <li><a href="#ff">&lt;figcaption&gt;</a></li>
+        <li><a href="#ff">&lt;figure&gt;</a></li>
+        <li><a href="#footer">&lt;footer&gt;</a></li>
+        <li><a href="#header">&lt;header&gt;</a></li>
+        <li>&lt;main&gt;</li>
+        <li>&lt;mark&gt;</li>
+        <li><a href="#nav">&lt;nav&gt;</a></li>
+        <li><a href="#section">&lt;section&gt;</a></li>
+        <li>&lt;summary&gt;</li>
+        <li>&lt;time&gt;</li>
+    </ul>
+    <h2 id="section">HTML5 &lt;section&gt; елемент <a href="#menu">&uarr;</a></h2>
+    <p>Елемент &lt;section&gt; визначає розділ в документі.</p>
+    <p>Згідно з документацією в3к'с HTML5: "розділ представляє собою тематичну угруповання контенту, зазвичай з
+        заголовком".</p>
+    <p>Домашня сторінка зазвичай може бути розділена на розділи для ознайомлення, змісту і контактної інформації.</p>
+    <div><img src="./imeg/Screenshot_7.jpg" alt="" width="800" tabindex="0"></div>
+    <h2 id="article">HTML5 &lt;article&gt; елемент <a href="#menu">&uarr;</a></h2>
+    <p>Елемент &lt;article&gt; визначає незалежний, автономний вміст.</p>
+    <p>Стаття повинна мати сенс самостійно, і вона повинна мати можливість читати його незалежно від іншої частини
+        веб-сайту.</p>
+    <p>Приклади того, де можна використовувати елемент &lt;article&gt;:</p>
+    <ul>
+        <li>Повідомлення на форумі</li>
+        <li>блозі</li>
+        <li>Газетна стаття</li>
+    </ul>
+    <div><img src="./imeg/Screenshot_6.jpg" alt="" width="800" tabindex="0"></div>
+    <h2>Вкладення &lt;article&gt; в &lt;section&gt; або навпаки? <a href="#menu">&uarr;</a></h2>
+    <p>Елемент &lt;article&gt; визначає незалежне, автономне вміст.</p>
+    <p>Елемент &lt;section&gt; визначає розділ в документі.</p>
+    <p>Чи можемо ми використовувати визначення, щоб вирішити, як вкладати ці елементи? Ні, ми не можемо!</p>
+    <p>Таким чином, в Інтернеті ви знайдете HTML-сторінки з &lt;section&gt; елементами, що містять елементи
+        &lt;article&gt;, і &lt;article&gt; елементи, що містять &lt;section&gt; елементи.</p>
+    <h2 id="header">HTML5 &lt;header&gt; елемент <a href="#menu">&uarr;</a></h2>
+    <p>Елемент &lt;header&gt; задає заголовок для документа або розділу.</p>
+    <p>Елемент &lt;header&gt; повинен використовуватися в якості контейнера для вступного змісту.</p>
+    <p>В одному документі може бути кілька елементів &lt;header&gt;.</p>
+    <p>У наступному прикладі визначається заголовок для статті:</p>
+    <div><img src="./imeg/Screenshot_5.jpg" alt="" width="800" tabindex="0"></div>
+    <h2 id="footer">HTML5 &lt;footer&gt; елемент <a href="#menu">&uarr;</a></h2>
+    <p>Елемент &lt;footer&gt; вказує нижній колонтитул для документа або розділу.</p>
+    <p>Нижній колонтитул зазвичай містить автора документа, інформацію про авторське право, посилання на умови
+        використання, контактні дані і т.д.</p>
+    <p>В одному документі може бути кілька елементів &lt;footer&gt; .</p>
+    <div><img src="./imeg/Screenshot_4.jpg" alt="" width="800" tabindex="0"></div>
+    <h2 id="Nav">HTML5 &lt;Nav&gt; елемент <a href="#menu">&uarr;</a></h2>
+    <p>Елемент &lt;nav&gt; визначає набір навігаційних посилань.</p>
+    <p>Зверніть увагу, що не всі посилання документа повинні знаходитися всередині елемента &lt;nav&gt;. Елемент
+        &lt;nav&gt; призначений тільки для основного блоку навігаційних посилань.</p>
+    <div><img src="./imeg/Screenshot_3.jpg" alt="" width="800" tabindex="0"></div>
+    <h2 id="aside">HTML5 &lt;aside&gt; елемент <a href="#menu">&uarr;</a></h2>
+    <p>Зміст &lt;aside&gt; має бути пов'язане з навколишнім вмістом.</p>
+    <div><img src="./imeg/Screenshot_2.jpg" alt="" width="800" tabindex="0"></div>
+    <h2 id="ff">HTML5 & &lt;figure&gt; і &lt;figcaption&gt; елементи <a href="#menu">&uarr;</a></h2>
+    <p>Метою малюнка є додавання візуального пояснення до зображення.</p>
+    <p>У HTML5 зображення і заголовок можуть бути згруповані разом в елементі &lt;figure&gt;:</p>
+    <div><img src="./imeg/Screenshot_1.jpg" alt="" width="800" tabindex="0"></div>
+    <p>Елемент &lt;img&gt; визначає зображення, елемент &lt;figcaption&gt; визначає заголовок.</p>
+</body>
+
+</html>
