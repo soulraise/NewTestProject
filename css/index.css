@@ -16,7 +16,10 @@ body{
 img[tabindex="0"] {
     cursor: zoom-in;
 }
-
+.hw{
+    height: 250px;
+    padding: 20px;
+}
 img[tabindex="0"]:focus {
     position: fixed;
     z-index: 10;
@@ -37,3 +40,10 @@ img[tabindex="0"]:focus~* {
     pointer-events: none;
     cursor: zoom-out;
 }
+ section{
+     background-color: burlywood;
+ 
+ }
+ h3{
+     color: blue;
+ }
