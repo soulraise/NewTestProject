@@ -1,0 +1,65 @@
+.title{
+    background-color: #990909;
+    text-align: center;
+}
+body{
+    background-color: #990909;
+}
+.headsection{
+    background-color: black;
+    padding: 20px 0 10px;
+    display: block;
+    margin: 0 0 0 10px;
+}
+section a{
+    color: white; 
+}
+section{
+    display: inline-block;
+    vertical-align: top;
+}    
+
+li{
+   display: inline-block; 
+   text-align: center;
+}
+section img{
+    width: 80%;
+}
+.leftBar{
+    background-color: #7d0909;
+    width: 20%;
+    height: 350px;
+    margin: 0 0 0 10px;
+}
+.leftBar a{
+    color: #e95b0d;
+    line-height: 2;
+    
+}
+.title2{
+    background-color: #bdbdbd;
+    margin: 1%;
+    font-weight: bold;
+    text-align: center;
+}
+.ritBar{
+    background-color: #e3dddd;
+    width: 13%;
+    height: 350px;
+    
+}
+.centerBar{
+    width: 65%;
+    color: white;
+    
+}
+footer p{
+    text-align: center;
+    background-color: #e95b11;
+    color: white;
+    margin: 20px 0px 00px 10px;
+}
+hr{
+    width: 50%;
+}
