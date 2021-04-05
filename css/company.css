@@ -26,6 +26,9 @@ li{
 }
 section img{
     width: 80%;
+    background: url('http://moyhutor.net/wp-content/uploads/2012/08/ogurec1.jpg') no-repeat center top;
+  
+  
 }
 .leftBar{
     background-color: #7d0909;
@@ -64,3 +67,11 @@ footer p{
 hr{
     width: 50%;
 }
+img:hover{
+   opacity: 0.5;
+   
+}
+a:hover{
+    color: brown;
+}
+

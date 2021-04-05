@@ -47,3 +47,8 @@ img[tabindex="0"]:focus~* {
  h3{
      color: blue;
  }
+ img.hw:hover{
+    opacity: 0.5;
+    
+ }
+ 
