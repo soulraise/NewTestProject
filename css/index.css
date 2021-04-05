@@ -46,9 +46,19 @@ img[tabindex="0"]:focus~* {
  }
  h3{
      color: blue;
+     text-align: center;
  }
  img.hw:hover{
     opacity: 0.5;
     
  }
- 
+ .hwFigma{
+     width: 50%;
+     border-radius: 20px;
+ }
+ .hwFigma:hover{
+    opacity: 0.5;
+ }
+ .divFigma{
+    text-align: center;
+ }
