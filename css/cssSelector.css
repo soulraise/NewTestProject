@@ -40,6 +40,8 @@ section{
     color: white;
     margin-left: 1%;
     cursor: pointer;
+    width: 95%;
+    display: inline-block;
 }
 .brackets{
     font-size: 16px;

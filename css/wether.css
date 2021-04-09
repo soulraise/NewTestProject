@@ -1,0 +1,93 @@
+h1{
+    font-size: 28px;
+    color: white;
+}
+section{
+    background-color: #3399cc;
+    padding: 2%;
+}
+.tab{
+    width: 80%;
+    height: 50%;
+    margin: 0 auto;
+    border-spacing: 0;
+    border: solid 3px white;
+
+}
+
+td {
+    position: relative; 
+    border: solid 3px white;
+   }
+td a{
+    position: absolute; 
+    left: 0; right: 0; 
+    top: 0; bottom: 0;
+    text-decoration: unset;
+    color: white;
+    font-size: 22px;
+    
+}
+.item{
+    height: 100px;
+    text-align: center;
+    line-height:50px;
+    width: 25%;
+    
+    
+}
+.lisbon{
+   background-color: #3399cc;
+}
+.paris{
+    background-color: #3cc;
+}
+.balgrade{
+   background-color: #969;
+}
+.moscow{
+   background-color: #c24747;
+
+}
+.telAviv{
+    background-color: #e2674a;
+
+}
+.cair{
+    background-color: #ffcc66;
+
+}
+.newYork{
+    background-color: #9c9;
+
+}
+.newDel{
+    background-color: #699;
+
+}
+.san{
+    background-color: #c69;
+    
+}
+.tokyo{
+    background-color: #396;
+
+}
+.sydney{
+    background-color: #669;
+
+}
+p{
+    padding-left: 90px;
+    color: white;
+    font-size: 20px;
+}
+.tab:hover .item{
+    opacity: 0.5;
+}
+.tab .item:hover{
+    opacity: 1;
+}
+span{
+    opacity: 0.8;
+}
