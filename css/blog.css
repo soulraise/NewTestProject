@@ -1,0 +1,112 @@
+.sect{
+    background-color: #b07cf7;
+    padding: 90px 10%;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+   
+}
+.conteiner{
+   text-align: center;
+   position: relative;
+}
+h1{
+    text-align: center;
+    font-size: 90px;
+    line-height: 25px;
+}
+p{
+    text-align: center;
+    font-size: 17px;
+    line-height: 25px;
+
+}
+.date{
+    position: absolute;
+    left: 8%;
+    top: 8%;
+    height: 18%;
+    width: 18%;
+    background-color: #262626;
+    opacity: 0.5;
+    border-radius: 10%;
+ 
+}
+.dateD{
+    opacity: 1;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 25px;
+    margin: 5%;
+}
+.dateM{
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 25px;
+    margin: 0;
+}
+.item{
+    display: inline-block;
+    margin: 1%;
+    position: relative;
+}
+.text{
+    position: absolute;
+    left: 1%;
+    bottom: 1%;
+    
+    
+}
+.grad{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 50%;
+    width: 100%;
+    background-image: linear-gradient(0deg, black, transparent);
+}
+.textFirst{
+    text-align: left;
+    margin: 5% 5% ;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+}
+.textTwo{
+    text-align: left;
+    margin: 5% 5% ;
+    font-size: 13px;
+    line-height: 25px;
+}
+span{
+    background-color: #f72b3b;
+    color: white;
+    font-size: 20px;
+    margin: 50px auto;
+    padding: 10px ;
+    height: 30px;
+    width: 200px;
+    display: block;
+    border-radius: 4%;
+    vertical-align: middle;
+    line-height: 30px;
+        
+}
+a{
+    text-decoration: none;
+}
+.button{
+    text-align: center;
+}
+
+.thri .grad,    
+.thri .date,    
+.thri .text{
+    opacity: 0;
+    transition: opacity 1s linear;
+}
+.thri:hover .grad,
+.thri:hover .date,
+.thri:hover .text{
+    opacity: 1;
+    transition: opacity 1s linear;
+}
