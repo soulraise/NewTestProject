@@ -172,6 +172,8 @@ h1{
     line-height: 26px;
     color: #252A34;
     margin-left: 20px;
+    flex-grow: 1;
+    margin: 20px;
 }
 .magPrice{
     font-family: Rajdhani, sans-serif;
