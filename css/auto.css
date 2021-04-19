@@ -401,6 +401,9 @@ color: #343434;
 .footer__nav a{
     color: #FFFFFF;
 }
+.auto2{
+    margin: 90px 0;
+}
 .auto2__body{
     display: flex;
     
@@ -442,6 +445,9 @@ color: #343434;
     line-height: 28px;
     color: #999999;
 }
+.brands{
+    align-self:flex-start;
+}
 .brands__contact{
     padding: 55px 20px 20px 20px;
 }
@@ -472,6 +478,13 @@ color: #343434;
 .shops{
     max-width: 956px;
 }
+.shops__name{
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 64px;
+    margin: 0 0 20px 30px;
+    color: #343434;
+}
 .shops__body{
     display: flex;
     width: 100%;
@@ -493,6 +506,8 @@ color: #343434;
     width: 100%;
 }
 .car__name{
+    font-family: Rajdhani;
+    font-style: normal;
     font-weight: bold;
     font-size: 20px;
     line-height: 26px;
@@ -500,11 +515,13 @@ color: #343434;
     margin: 20px 0 5px 20px;
 }
 .car__price{
+    font-family: Rajdhani;
+    font-style: normal;
     font-weight: bold;
     font-size: 30px;
     line-height: 20px;
     color: #FF2E63;
-    margin: 5px 0 5px 20px;
+    margin: 10px 0 10px 20px;
     
 }
 .car__price span{
@@ -515,10 +532,31 @@ color: #343434;
     color: #999999;
 
 }
+.nowSale{
+    color: #252A34;
+}
 .car__title{
     font-weight: normal;
     font-size: 14px;
     line-height: 19px;
     color: #343434;
     margin: 5px 0 20px 20px;
+}
+.car__buton{
+    height: 40px;
+    width: 131px;
+    background: #FF2E63;
+    border-radius: 5px;
+    text-align: center;
+    margin: 15px auto 30px;
+    
+    
+    
+}
+.car__buton span{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 38px;
+    color: #FFFFFF;
+    
 }
