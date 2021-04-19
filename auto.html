@@ -13,84 +13,205 @@
         rel="stylesheet">
     <link rel="stylesheet" href="./css/auto.css">
     <link rel="shortcut icon" href="./imeg/auto/icon.svg" type="image/x-icon">
+    <meta name="viewport" content="width=device-width">
     <title>Avto</title>
 </head>
 
 <body>
-    <header>
-        <div>
-            <img src="./imeg/auto/LOGOAuto.png" alt="logo avto">
-        </div>
-        <div>
-            <ul class="nav">
-                <li class="navItem"><a title="На главную страницу" href="./index.html">Home</a></li>
-                <li class="navItem"><a href="">About us</a></li>
-                <li class="navItem"><a href="">Shop</a></li>
-                <li class="navItem"><a href="">Blog</a></li>
-                <li class="navItem"><a href="">Contacts</a></li>
-                <li class="navItem"><a href="">How it Works</a></li>
-            </ul>
-        </div>
-        <div>
-            <ul class="nav2">
-                <li class="navItem"><a id="log" href="">Login</a></li>
-                <li class="navItem"><span id="regButon"><a id="reg" href="">Register</a></span></li>
-            </ul>
+
+    <header class="header">
+        <div class="conteiner">
+            <div class="header__body">
+                <div>
+                    <img src="./imeg/auto/LOGOAuto.png" alt="logo avto">
+                </div>
+                <div>
+                    <ul class="header__nav">
+                        <li class="nav__item"><a href="#">Home</a></li>
+                        <li class="nav__item"><a title="На главную страницу" href="./index.html">About us</a></li>
+                        <li class="nav__item"><a href="./auto2.html">Shop</a></li>
+                        <li class="nav__item"><a href="">Blog</a></li>
+                        <li class="nav__item"><a href="">Contacts</a></li>
+                        <li class="nav__item"><a href="">How it Works</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="nav__nav2">
+                        <li class="nav__item item__log"><a href="">Login</a></li>
+                        <li class="nav__item item__reg"><span id="regButon"><a id="reg" href="">Register</a></span></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </header>
-    <section class="firstImg">
-        <p class="firstText">Could you be our <br><span> next winner?</span></p>
-        <a title="buy car" href="#">
-            <div class="firstButon"><span>Enter now</span> </div>
-        </a>
-        <div class="firstImg">
-            <div class="col"></div>
-            <img class="firstImgItem" src="./imeg/auto/auto.png" alt="avto">
+    <section class="first">
+        <div class="conteiner">
+            <div class="first_body">
+                <p class="first__text">Could you be our <br><span> next winner?</span></p>
+                <a title="buy car" href="#">
+                    <div class="firstButon"><span>Enter now</span> </div>
+                </a>
+                <div class="firstImg">
+                    <div class="first__col">
+                        <div class="col"></div>
+                    </div>
+                    <div class="first__img-div">
+                        <img class="first__img" src="./imeg/auto/auto.png" alt="avto">
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-    <section class="conteiner2">
-        <h1>Latest Competitions</h1>
-        <div class="avtoMag">
-            <div class="magCol">
-                <img src="./imeg/auto/1.jpg" alt="avto">
-                <p class="magNam">2020 Audi S5 Coupe</p>
-                <p class="magPrice">$19.99 <span>$54.68</span></p>
-                <p class="magText">5878 tickets remaining </p>
-                <a href="#">
-                    <div class="magBut">&#10144;</div>
-                </a>
+    <section class="latest">
+        <div class="conteiner">
+            <div class="popular">
+                <h1 class="latest__title title">Popular products</h1>
+                <div class="popular__direct"><a href="./auto2.html">All cars <img
+                            src="./imeg/auto/icon/Vector1.png"></a></div>
             </div>
-            <div class="magCol">
-                <img src="./imeg/auto/2.jpg" alt="avto">
-                <p class="magNam">
-                    2016 Ford Mustang Shelby GT350</p>
-                <p class="magPrice">$7.99 <span>$9.68</span></p>
-                <p class="magText">3290 tickets remaining </p>
-                <a href="#">
-                    <div class="magBut">&#10144;</div>
-                </a>
-            </div>
-            <div class="magCol">
-                <img src="./imeg/auto/3.jpg" alt="avto">
-                <p class="magNam">2020 Bugatti Chiron</p>
-                <p class="magPrice">$0.99 <span>$1.39</span></p>
-                <p class="magText">4014 tickets remaining </p>
-                <a href="#">
-                    <div class="magBut">&#10144;</div>
-                </a>
-            </div>
-            <div class="magCol">
-                <img src="./imeg/auto/4.jpg" alt="avto">
-                <p class="magNam">2019 Porsche 911 Carrera</p>
-                <p class="magPrice">$1.99 <span>$2.99</span></p>
-                <p class="magText">484 tickets remaining</p>
-                <a href="#">
-                    <div class="magBut">&#10144;</div>
-                </a>
-            </div>
-        </div>
 
+            <div class="latest__body">
+                <div class="magCol">
+                    <img src="./imeg/auto/1.jpg" alt="avto">
+                    <p class="magNam">2020 Audi S5 Coupe</p>
+                    <p class="magPrice">$19.99 <span>$54.68</span></p>
+                    <p class="magText">5878 tickets remaining </p>
+                    <a href="#">
+                        <div class="magBut">&#10144;</div>
+                    </a>
+                </div>
+                <div class="magCol">
+                    <img src="./imeg/auto/2.jpg" alt="avto">
+                    <p class="magNam">
+                        2016 Ford Mustang Shelby GT350</p>
+                    <p class="magPrice">$7.99 <span>$9.68</span></p>
+                    <p class="magText">3290 tickets remaining </p>
+                    <a href="#">
+                        <div class="magBut">&#10144;</div>
+                    </a>
+                </div>
+                <div class="magCol">
+                    <img src="./imeg/auto/3.jpg" alt="avto">
+                    <p class="magNam">2020 Bugatti Chiron</p>
+                    <p class="magPrice">$0.99 <span>$1.39</span></p>
+                    <p class="magText">4014 tickets remaining </p>
+                    <a href="#">
+                        <div class="magBut">&#10144;</div>
+                    </a>
+                </div>
+                <div class="magCol">
+                    <img src="./imeg/auto/4.jpg" alt="avto">
+                    <p class="magNam">2019 Porsche 911 Carrera</p>
+                    <p class="magPrice">$1.99 <span>$2.99</span></p>
+                    <p class="magText">484 tickets remaining</p>
+                    <a href="#">
+                        <div class="magBut">&#10144;</div>
+                    </a>
+                </div>
+            </div>
+        </div>
     </section>
+    <div class="how">
+        <div class="conteiner position">
+
+            <div class="how__title title">How it works</div>
+            <div class="how__body">
+                <div class="how__row"><img src="./imeg/auto/icon/Vector.png" alt=""></div>
+                <div class="how__row2"><img src="./imeg/auto/icon/Vector.png" alt=""></div>
+                <div class="how__row3"><img src="./imeg/auto/icon/Vector.png" alt=""></div>
+                <div class="how__col">
+                    <div class="col__icon">
+                        <img src="./imeg/auto/icon/icon1.png" alt="">
+                    </div>
+                    <div class="col__title">1. Selection of the Car</div>
+                    <div class="col__text">We select and offer several car options from US auctions based on your budget
+                        and requirements.</div>
+                </div>
+                <div class="how__col">
+                    <div class="col__icon">
+                        <img src="./imeg/auto/icon/icon2.png" alt="">
+                    </div>
+                    <div class="col__title">2. Concluding the Agreement</div>
+                    <div class="col__text">The conclusion of the contract gives the opportunity not to worry about the
+                        parties for the
+                        fulfillment of their obligations.</div>
+                </div>
+                <div class="how__col">
+                    <div class="col__icon">
+                        <img src="./imeg/auto/icon/icon3.png" alt="">
+                    </div>
+                    <div class="col__title">3. Payment through the Bank</div>
+                    <div class="col__text"> Payments are made by invoice, SWIFT transfer through the Bank, which
+                        guarantees the transparency and formality of the transaction..
+                    </div>
+                </div>
+                <div class="how__col">
+                    <div class="col__icon">
+                        <img src="./imeg/auto/icon/icon4.png" alt="">
+                    </div>
+                    <div class="col__title">4. Car transfer to the customer </div>
+                    <div class="col__text">Transfer / Delivery of a car to the happy buyer that saved 35-50% from
+                        analogs in Ukraine</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="danny">
+        <div class="danny__body">
+            <div class="danny__text">
+                <div class="text__title">"Unbelievable this is a dream come true, no way would I ever think I
+                    would own <br> a car like this. What great blokes. <br>Thank you very much! <br>5 star from me!!!"
+                </div>
+                <div class="text__name">Danny Churchman</div>
+            </div>
+            <div class="danny__img"><img src="./imeg/auto/danny.jpg"></div>
+        </div>
+    </div>
+    <div class="articles">
+        <div class="conteiner">
+            <div class="articles__title title">Latest articles</div>
+            <div class="articles__body">
+                <div class="articles__row">
+                    <div class="row__img"><img src="./imeg/auto/01.jpg" alt=""></div>
+                    <div class="row__name">Ferrari 458</div>
+                    <div class="row__text">12 November 2020</div>
+                </div>
+                <div class="articles__row">
+                    <div class="row__img"><img src="./imeg/auto/02.jpg" alt=""></div>
+                    <div class="row__name">Aquila Gullwing</div>
+                    <div class="row__text">9 November 2020</div>
+                </div>
+                <div class="articles__row">
+                    <div class="row__img"><img src="./imeg/auto/03.jpg" alt=""></div>
+                    <div class="row__name">2020 Audi S5 Coupe</div>
+                    <div class="row__text">5 November 2020</div>
+                </div>
+                <div class="articles__row">
+                    <div class="row__img"><img src="./imeg/auto/04.jpg" alt=""></div>
+                    <div class="row__name">Ferrari Purosangue SUV</div>
+                    <div class="row__text">25 September 2020</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="footer__body">
+                <div class="footer__logo">LogooAuto</div>
+                <div>
+                    <ul class="header__nav">
+                        <li class="footer__nav nav__item"><a title="На главную страницу" href="./index.html">Home</a>
+                        </li>
+                        <li class="footer__nav nav__item"><a href="">About us</a></li>
+                        <li class="footer__nav nav__item"><a href="">Shop</a></li>
+                        <li class="footer__nav nav__item"><a href="">Blog</a></li>
+                        <li class="footer__nav nav__item"><a href="">Contacts</a></li>
+                        <li class="footer__nav nav__item"><a href="">How it Works</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
