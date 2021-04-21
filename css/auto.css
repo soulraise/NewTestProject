@@ -3,6 +3,7 @@
 }
 body{
     font-family: Open Sans, sans-serif;
+    margin: 0;
 }
 .conteiner{
     max-width: 1170px;
@@ -37,6 +38,9 @@ body{
     font-size: 14px;
     line-height: 19px;
      color: #252A34;
+}
+.nav__item a:hover{
+    text-decoration: underline #FF2E63;;
 }
 .item__log a{
     font-family: Open Sans;
@@ -403,36 +407,137 @@ color: #343434;
 }
 .auto2{
     margin: 90px 0;
+    position: relative;
 }
 .auto2__body{
     display: flex;
     
 }
-.brands{
-    max-width: 270px;
+.menu{
+    flex: 1 0 auto;
+    align-self:flex-start;
+    position: sticky;
+    top: 0;
+}
+.menu__brands{
     background: #FFFFFF;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
-    flex: 1 0 auto;
+    max-width: 270px;
+
+}
+.menuTitle{
+    font-family: Rajdhani;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: -0.2px;
+    color: #252A34;
+}
+.price{
+    padding: 20px;
+    position: relative;
+}
+.price__item{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    font-size: 14px;
+    line-height: 19px;
+    color: #999999;
+}
+.price__item2{
+    padding: 0 10px 6px;
+    align-self:flex-end;
+}
+.price__item input {
+    height: 35px;
+    width: 100px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.price__title{
+    padding: 7px 0 10px 0px;
+    display: block;
+    background: url(../imeg/auto/icon/Vector4.png) right no-repeat;
+    
+}
+.price__toggle:hover + .price__title{
+    text-decoration: underline  #FF2E63;
+}
+.price__body{
+    display: flex;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+.price__toggle{
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    opacity: 0;
+    width: 100%;
+    height: 1.5em;
+    cursor: pointer;
+}
+.price__toggle:checked ~ .price__title{
+    background: url(../imeg/auto/icon/Vector3.png) right no-repeat;
+}
+.price__toggle:checked ~ .price__body{
+    max-height: 100px;
+    transition: all 0.5s;
 }
 .brands__marks{
     display: flex;
     flex-direction: column;
-    margin: 0 20px ;
+    margin: 0  ;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+.marks__checkbox{
+    width: 20px;
+    height: 20px;
+    background: url(../imeg/auto/icon/Checkbox-none.png);
+    transition: all 0.5s;
+}
+.checkbox__input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.checkbox__input:checked + .marks__checkbox{
+    background: url(../imeg/auto/icon/Checkbox.png);
+    transition: all 0.5s;
 }
 .marks__col{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    position: relative;
 }
 .col__name{
-    background: url('../imeg/auto/icon/Vector2.png') left no-repeat;
     padding: 0 0 0 15px;
-}
-.col__name a{
+    flex: 1 1 auto;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
     text-decoration: none;
     font-size: 14px;
     line-height: 28px;
     color: #252A34;
+    cursor: pointer;
+}
+.col__name label{
+    cursor: pointer;
 }
 .col__num{
     font-size: 14px;
@@ -440,24 +545,42 @@ color: #343434;
     text-align: center;
     color: #999999;
 }
-.inectiv a{
+.inectiv{
     font-size: 14px;
     line-height: 28px;
     color: #999999;
 }
 .brands{
-    align-self:flex-start;
+    position: relative;
+    padding: 20px;
+    
+}
+.brands__toggle{
+    position: absolute;
+    top: 22px;
+    left: 15px;
+    opacity: 0;
+    width: 100%;
+    height: 1.5em;
+    cursor: pointer;
+}
+.brands__toggle:checked ~ .brands__marks{
+    max-height: 300px;
+    transition: all 0.5s;
+}
+.brands__toggle:checked ~ .brands__title{
+    background: url(../imeg/auto/icon/Vector3.png) right no-repeat;
 }
 .brands__contact{
     padding: 55px 20px 20px 20px;
 }
 .brands__title{
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 26px;
-    letter-spacing: -0.2px;
-    color: #1C1C1C;
-    padding: 20px;
+    display: block;
+    width: 100%;
+    background: url(../imeg/auto/icon/Vector4.png) right no-repeat;
+}
+.brands__toggle:hover + .brands__title{
+    text-decoration: underline  #FF2E63;
 }
 .contact__title{
     font-weight: 600;
@@ -474,6 +597,23 @@ color: #343434;
 }
 .contact__text span{
     font-weight: 600;
+}
+.contact__text a{
+    color: #252A34;
+    text-decoration: none;
+}
+.contact__text a:hover{
+    text-decoration: underline  #FF2E63;;
+}
+.search{
+    padding: 20px 0 30px 20px;
+}
+.search__title{
+    padding-bottom: 11px;
+}
+.search__input{
+    width: 230px;
+    height: 35px;
 }
 .shops{
     max-width: 956px;
@@ -559,4 +699,33 @@ color: #343434;
     line-height: 38px;
     color: #FFFFFF;
     
+}
+.wrap{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow: hidden;
+}
+.register{
+    flex: 1 1 auto;
+    margin: 0 auto;
+    width: 100%;
+}
+.regTitle{
+    font-family: Rajdhani;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 64px;
+    color: #343434;
+}
+.register__title{
+    display: flex;
+    justify-content: center;
+}
+.title__log{
+    padding: 0 30px;
+}
+.title__reg{
+    padding: 0 30px;
 }

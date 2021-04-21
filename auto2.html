@@ -37,8 +37,9 @@
                 </div>
                 <div>
                     <ul class="nav__nav2">
-                        <li class="nav__item item__log"><a href="">Login</a></li>
-                        <li class="nav__item item__reg"><span id="regButon"><a id="reg" href="">Register</a></span></li>
+                        <li class="nav__item item__log"><a href="./autoReg.html">Login</a></li>
+                        <li class="nav__item item__reg"><span id="regButon"><a id="reg"
+                                    href="./autoReg.html">Register</a></span></li>
                     </ul>
                 </div>
             </div>
@@ -48,42 +49,72 @@
     <div class="auto2">
         <div class="conteiner">
             <div class="auto2__body">
-                <div class="brands">
-                    <div class="brands__title">Brands</div>
-                    <div class="brands__marks">
-                        <div class="marks__col">
-                            <div class="col__name"><a href="#">Audi</a></div>
-                            <div class="col__num">(9) </div>
+                <div class="menu">
+                    <div class="menu__brands">
+                        <div class="price">
+                            <input class="price__toggle" type="checkbox">
+                            <div class="price__title menuTitle">Price</div>
+                            <div class="price__body">
+                                <div class="price__item">
+                                    <p>Min</p>
+                                    <input type="number" min="0">
+                                </div>
+                                <div class="price__item2">-</div>
+                                <div class="price__item">
+                                    <p>Min</p>
+                                    <input type="number" min="0">
+                                </div>
+                            </div>
                         </div>
-                        <div class="marks__col">
-                            <div class="col__name"><a href="#">Ford</a> </div>
-                            <div class="col__num">(3) </div>
+                        <div class="brands">
+                            <input class="brands__toggle" type="checkbox">
+                            <div class="brands__title menuTitle">Brands</div>
+                            <div class="brands__marks">
+
+                                <div class="marks__col">
+                                    <input type="checkbox" id="item1" class="checkbox__input">
+                                    <div class="marks__checkbox"></div>
+                                    <a href="#" class="col__name "><label for="item1">Toyota </label></a>
+                                    <div class="col__num">(1) </div>
+                                </div>
+                                <div class="marks__col">
+                                    <input type="checkbox" id="item2" class="checkbox__input">
+                                    <div class="marks__checkbox"></div>
+                                    <a href="#" class="col__name "><label for="item2">Fiat </label></a>
+                                    <div class="col__num">(10) </div>
+                                </div>
+                                <div class="marks__col">
+                                    <input type="checkbox" id="item3" class="checkbox__input">
+                                    <div class="marks__checkbox"></div>
+                                    <a href="#" class="col__name "><label for="item3">Toyota </label></a>
+                                    <div class="col__num">(3) </div>
+                                </div>
+                                <div class="marks__col">
+                                    <input type="checkbox" id="item4" class="checkbox__input">
+                                    <div class="marks__checkbox"></div>
+                                    <a href="#" class="col__name "><label for="item4">Fiat </label></a>
+                                    <div class="col__num">(0) </div>
+                                </div>
+                                <div class="marks__col">
+                                    <input type="checkbox" id="item5" class="checkbox__input">
+                                    <div class="marks__checkbox"></div>
+                                    <a href="#" class="col__name "><label for="item5">Fiat </label></a>
+                                    <div class="col__num">(0) </div>
+                                </div>
+
+                            </div>
                         </div>
-                        <div class="marks__col">
-                            <div class="col__name"><a href="#">Bugatti</a> </div>
-                            <div class="col__num">(1) </div>
-                        </div>
-                        <div class="marks__col">
-                            <div class="col__name"><a href="#">Passat</a> </div>
-                            <div class="col__num">(10) </div>
-                        </div>
-                        <div class="marks__col">
-                            <div class="col__name"><a href="#">Nissan </a> </div>
-                            <div class="col__num">(3) </div>
-                        </div>
-                        <div class="marks__col">
-                            <div class="col__name inectiv"><a href="#">Volkswagen</a> </div>
-                            <div class="col__num">(0) </div>
-                        </div>
-                        <div class="marks__col">
-                            <div class="col__name inectiv"><a href="#">Fiat </a> </div>
-                            <div class="col__num">(0) </div>
+                        <div class="search">
+                            <div class="search__title menuTitle">Search</div>
+                            <input class="search__input" type="text" placeholder="Search by name...">
                         </div>
                     </div>
                     <div class="brands__contact">
                         <div class="contact__title">Contacts Details</div>
-                        <div class="contact__text"><span>Phone:</span> 879-332-9375</div>
-                        <div class="contact__text"><span>Email:</span> info@pixsellz.io</div>
+                        <div class="contact__text"><span>Phone: </span><a href="tel:879-332-9375">879-332-9375</a>
+                        </div>
+                        <div class="contact__text"><span>Email: </span><a
+                                href="mailto:info@pixsellz.io">info@pixsellz.io</a> </div>
                         <div class="contact__text"><span>Adress:</span> 456 Hagenes Gardens Suite 808</div>
 
                     </div>
