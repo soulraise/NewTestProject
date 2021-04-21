@@ -729,3 +729,66 @@ input::-webkit-inner-spin-button {
 .title__reg{
     padding: 0 30px;
 }
+hr{
+    border: 2px solid #999999;
+}
+.reg__title{
+    text-align: center;
+    margin: 45px 0 10px 0;
+}
+.form__pass,
+.form__name{
+    display: flex;
+    justify-content: center;
+}
+
+.name__first{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.name__last{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.form__pass input,
+.form__name input{
+    width: 245px;
+    height: 35px;
+}
+.name__mail input{
+    width: 500px;
+    height: 35px;
+}
+#firstName{
+    margin: 10px 0;
+}
+#lastName{
+    margin: 10px 0;
+}
+.name__title{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: -0.2px;
+    color: #343434;
+}
+.form__body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.name__mail{
+    display: flex;
+    flex-direction: column;
+}
+.name__male{
+    align-self: start;
+    padding: 16px 0;
+
+}
