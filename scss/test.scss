@@ -1,0 +1,27 @@
+$color: red;
+$size: 18px;
+$color2: green;
+
+body{
+    color: $color;
+    font-size: $size;
+    background-color: $color2;
+
+}
+footer{
+    color: $color;
+}
+.home{
+    &__image{
+        width: 100%;
+    }
+    .img {
+        width: 100%;
+    }
+    &+img{
+        display: block;
+    }
+    &__food{
+        display: inline;
+    }
+}

@@ -1,0 +1,26 @@
+body {
+  color: red;
+  font-size: 18px;
+  background-color: green;
+}
+
+footer {
+  color: red;
+}
+
+.home__image {
+  width: 100%;
+}
+
+.home .img {
+  width: 100%;
+}
+
+.home + img {
+  display: block;
+}
+
+.home__food {
+  display: inline;
+}
+/*# sourceMappingURL=test.css.map */

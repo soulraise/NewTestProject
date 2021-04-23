@@ -37,8 +37,9 @@
                     </div>
                     <div>
                         <ul class="nav__nav2">
-                            <li class="nav__item item__log"><a href="">Login</a></li>
-                            <li class="nav__item item__reg"><span id="regButon"><a id="reg" href="">Register</a></span>
+                            <li class="nav__item item__log"><a href="#login">Login</a></li>
+                            <li class="nav__item item__reg"><span id="regButon"><a id="reg"
+                                        href="#register">Register</a></span>
                             </li>
                         </ul>
                     </div>
@@ -48,28 +49,51 @@
         <div class="register">
             <div class="conteiner">
                 <div class="register__title">
-                    <div class="title__log regTitle">Login</div>
-                    <div class="title__reg regTitle">Register </div>
+                    <div class="title__log regTitle"><a href="#login">Login</a></div>
+                    <div class="title__reg regTitle"><a href="#register">Register</a> </div>
                 </div>
                 <hr>
-                <div class="reg">
+                <div class="reg" id="login">
+                    <div class="reg__title title">login in</div>
+                    <form action="./auto.html">
+                        <div class="form__body">
+                            <div class="name__mail login__mail">
+                                <label for="e-mail" class="name__title">E-mail</label>
+                                <input type="email" id="e-mail" required>
+                            </div>
+                            <div class="name__mail login__pass">
+                                <label for="e-mail" class="name__title">Password</label>
+                                <input type="text" id="e-mail" required>
+                            </div>
+                            <div class="login__forgot"><a href="#">Forgot your password?</a></div>
+                            <div class="marks__col login__rememb">
+                                <input type="checkbox" id="item1" class="checkbox__input">
+                                <div class="marks__checkbox"></div>Remember me
+                            </div>
+                            <div class="form__buton button__reg"><input type="submit" value="Log in">
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+                <div class="reg" id="register">
                     <div class="reg__title title">Create an Account</div>
                     <form action="./auto.html">
                         <div class="form__body">
                             <div class="form__name">
                                 <div class="name__first">
                                     <label for="firstName" class="name__title">First Name</label>
-                                    <input type="text" id="firstName">
+                                    <input type="text" id="firstName" required>
                                 </div>
                                 <div class="name__last">
                                     <label for="lastName" class="name__title">Last Name</label>
-                                    <input type="text" id="lastName">
+                                    <input type="text" id="lastName" required>
                                 </div>
                             </div>
 
                             <div class="name__mail">
                                 <label for="e-mail" class="name__title">E-mail</label>
-                                <input type="text" id="e-mail">
+                                <input type="email" id="e-mail" required>
                             </div>
                             <div class="name__male">
                                 <input type="radio" name="male" id="male">
@@ -80,39 +104,46 @@
                             <div class="form__pass">
                                 <div class="name__first">
                                     <label for="password" class="name__title">Password</label>
-                                    <input type="text" id="password">
+                                    <input type="text" id="password" required>
                                 </div>
                                 <div class="name__last">
                                     <label for="cPassword" class="name__title">Confirm Password </label>
-                                    <input type="text" id="cPassword">
+                                    <input type="text" id="cPassword" required>
                                 </div>
                             </div>
+                            <div class="form__buton button__reg"><input type="submit" value="Register">
+                            </div>
+
                         </div>
-                    </form>
+                        <div class="form__political">By clicking the 'Sign Up' button, you confirm that you accept
+                            our<br> <a href="#">Terms of Use</a>
+                            and <a href="#">Privacy Policy</a>.</div>
                 </div>
+                </form>
             </div>
         </div>
-        <footer>
-            <div class="footer">
-                <div class="conteiner">
-                    <div class="footer__body">
-                        <div class="footer__logo">LogooAuto</div>
-                        <div>
-                            <ul class="header__nav">
-                                <li class="footer__nav nav__item"><a title="На главную страницу"
-                                        href="./index.html">Home</a>
-                                </li>
-                                <li class="footer__nav nav__item"><a href="">About us</a></li>
-                                <li class="footer__nav nav__item"><a href="./auto2.html">Shop</a></li>
-                                <li class="footer__nav nav__item"><a href="">Blog</a></li>
-                                <li class="footer__nav nav__item"><a href="">Contacts</a></li>
-                                <li class="footer__nav nav__item"><a href="">How it Works</a></li>
-                            </ul>
-                        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="conteiner">
+                <div class="footer__body">
+                    <div class="footer__logo">LogooAuto</div>
+                    <div>
+                        <ul class="header__nav">
+                            <li class="footer__nav nav__item"><a title="На главную страницу"
+                                    href="./index.html">Home</a>
+                            </li>
+                            <li class="footer__nav nav__item"><a href="">About us</a></li>
+                            <li class="footer__nav nav__item"><a href="./auto2.html">Shop</a></li>
+                            <li class="footer__nav nav__item"><a href="">Blog</a></li>
+                            <li class="footer__nav nav__item"><a href="">Contacts</a></li>
+                            <li class="footer__nav nav__item"><a href="">How it Works</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </footer>
+        </div>
+    </footer>
     </div>
 </body>
 
