@@ -22,7 +22,7 @@
     <header class="header">
         <div class="conteiner">
             <div class="header__body">
-                <div>
+                <div class="nav__logo">
                     <img src="./imeg/auto/LOGOAuto.png" alt="logo avto">
                 </div>
                 <div>
@@ -37,8 +37,8 @@
                 </div>
                 <div>
                     <ul class="nav__nav2">
-                        <li class="nav__item item__log"><a href="./autoReg.html#login">Login</a></li>
-                        <li class="nav__item item__reg"><span id="regButon"><a id="reg"
+                        <li class="nav__item2 item__log"><a href="./autoReg.html#login">Login</a></li>
+                        <li class="nav__item2 item__reg"><span id="regButon"><a id="reg"
                                     href="./autoReg.html#register">Register</a></span></li>
                     </ul>
                 </div>
@@ -122,7 +122,9 @@
                 <div class="how__row3"><img src="./imeg/auto/icon/Vector.png" alt=""></div>
                 <div class="how__col">
                     <div class="col__icon">
-                        <img src="./imeg/auto/icon/icon1.png" alt="">
+                        <svg class="icon__vector">
+                            <use xlink:href="./css/sprite.svg#vector1" viewBox="0 0 64 64" />
+                        </svg>
                     </div>
                     <div class="col__title">1. Selection of the Car</div>
                     <div class="col__text">We select and offer several car options from US auctions based on your budget
@@ -130,7 +132,9 @@
                 </div>
                 <div class="how__col">
                     <div class="col__icon">
-                        <img src="./imeg/auto/icon/icon2.png" alt="">
+                        <svg class="icon__vector">
+                            <use xlink:href="./css/sprite.svg#vector2" viewBox="0 0 64 64" />
+                        </svg>
                     </div>
                     <div class="col__title">2. Concluding the Agreement</div>
                     <div class="col__text">The conclusion of the contract gives the opportunity not to worry about the
@@ -139,7 +143,9 @@
                 </div>
                 <div class="how__col">
                     <div class="col__icon">
-                        <img src="./imeg/auto/icon/icon3.png" alt="">
+                        <svg class="icon__vector">
+                            <use xlink:href="./css/sprite.svg#vector3" viewBox="0 0 64 64" />
+                        </svg>
                     </div>
                     <div class="col__title">3. Payment through the Bank</div>
                     <div class="col__text"> Payments are made by invoice, SWIFT transfer through the Bank, which
@@ -148,7 +154,9 @@
                 </div>
                 <div class="how__col">
                     <div class="col__icon">
-                        <img src="./imeg/auto/icon/icon4.png" alt="">
+                        <svg class="icon__vector">
+                            <use xlink:href="./css/sprite.svg#vector4" viewBox="0 0 64 64" />
+                        </svg>
                     </div>
                     <div class="col__title">4. Car transfer to the customer </div>
                     <div class="col__text">Transfer / Delivery of a car to the happy buyer that saved 35-50% from
@@ -197,18 +205,22 @@
     </div>
     <footer>
         <div class="footer">
-            <div class="footer__body">
-                <div class="footer__logo">LogooAuto</div>
-                <div>
-                    <ul class="header__nav">
-                        <li class="footer__nav nav__item"><a title="На главную страницу" href="./index.html">Home</a>
-                        </li>
-                        <li class="footer__nav nav__item"><a href="">About us</a></li>
-                        <li class="footer__nav nav__item"><a href="">Shop</a></li>
-                        <li class="footer__nav nav__item"><a href="">Blog</a></li>
-                        <li class="footer__nav nav__item"><a href="">Contacts</a></li>
-                        <li class="footer__nav nav__item"><a href="">How it Works</a></li>
-                    </ul>
+            <div class="conteiner">
+                <div class="footer__body">
+
+                    <div class="footer__logo">LogooAuto</div>
+                    <div class="footer__nav">
+                        <ul class="header__nav">
+                            <li class="footer__nav nav__item"><a title="На главную страницу"
+                                    href="./index.html">Home</a>
+                            </li>
+                            <li class="footer__nav nav__item"><a href="">About us</a></li>
+                            <li class="footer__nav nav__item"><a href="./auto2.html">Shop</a></li>
+                            <li class="footer__nav nav__item"><a href="">Blog</a></li>
+                            <li class="footer__nav nav__item"><a href="">Contacts</a></li>
+                            <li class="footer__nav nav__item"><a href="">How it Works</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>

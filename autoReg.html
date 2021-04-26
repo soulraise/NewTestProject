@@ -48,79 +48,92 @@
         </header>
         <div class="register">
             <div class="conteiner">
-                <div class="register__title">
-                    <div class="title__log regTitle"><a href="#login">Login</a></div>
-                    <div class="title__reg regTitle"><a href="#register">Register</a> </div>
-                </div>
-                <hr>
-                <div class="reg" id="login">
-                    <div class="reg__title title">login in</div>
-                    <form action="./auto.html">
-                        <div class="form__body">
-                            <div class="name__mail login__mail">
-                                <label for="e-mail" class="name__title">E-mail</label>
-                                <input type="email" id="e-mail" required>
+                <div class="registe__body">
+
+
+                    <div class="reg" id="login">
+                        <div class="reg__title title">login in</div>
+                        <form action="./auto.html">
+                            <div class="form__body">
+                                <div class="name__mail login__mail">
+                                    <label for="e-mail" class="name__title">E-mail</label>
+                                    <input type="email" id="e-mail" required>
+                                </div>
+                                <div class="name__mail login__pass">
+                                    <label for="e-mail" class="name__title">Password</label>
+                                    <input type="text" id="e-mail" required>
+                                </div>
+                                <div class="login__forgot"><a href="#">Forgot your password?</a></div>
+                                <div class="marks__col login__rememb">
+                                    <input type="checkbox" id="item1" class="checkbox__input">
+                                    <div class="marks__checkbox"></div>
+                                    <a href="#" class="col__name "><label for="item1">Remember me </label></a>
+                                </div>
+                                <div class="form__buton button__reg"><input type="submit" value="Log in">
+                                </div>
+
                             </div>
-                            <div class="name__mail login__pass">
-                                <label for="e-mail" class="name__title">Password</label>
-                                <input type="text" id="e-mail" required>
-                            </div>
-                            <div class="login__forgot"><a href="#">Forgot your password?</a></div>
-                            <div class="marks__col login__rememb">
-                                <input type="checkbox" id="item1" class="checkbox__input">
-                                <div class="marks__checkbox"></div>
-                                <a href="#" class="col__name "><label for="item1">Remember me </label></a>
-                            </div>
-                            <div class="form__buton button__reg"><input type="submit" value="Log in">
+                        </form>
+                    </div>
+                    <div class="reg" id="register">
+                        <div class="reg__title title">Create an Account</div>
+                        <form action="./auto.html">
+                            <div class="form__body">
+                                <div class="form__name">
+                                    <div class="name__first">
+                                        <label for="firstName" class="name__title">First Name</label>
+                                        <input type="text" id="firstName" required>
+                                    </div>
+                                    <div class="name__last">
+                                        <label for="lastName" class="name__title">Last Name</label>
+                                        <input type="text" id="lastName" required>
+                                    </div>
+                                </div>
+
+                                <div class="name__mail">
+                                    <label for="e-mail" class="name__title">E-mail</label>
+                                    <input type="email" id="e-mail" required>
+                                </div>
+                                <div class="name__male">
+                                    <input type="radio" name="male" id="male">
+                                    <label for="male" class="name__title">Male</label>
+                                    <input type="radio" name="male" id="Female">
+                                    <label for="Female" class="name__title">Female</label>
+                                </div>
+                                <div class="form__pass">
+                                    <div class="name__first">
+                                        <label for="password" class="name__title">Password</label>
+                                        <input type="text" id="password" required>
+                                    </div>
+                                    <div class="name__last">
+                                        <label for="cPassword" class="name__title">Confirm Password </label>
+                                        <input type="text" id="cPassword" required>
+                                    </div>
+                                </div>
+                                <div class="form__buton button__reg"><input type="submit" value="Register">
+                                </div>
+                                <div class="form__political">By clicking the 'Sign Up' button, you confirm that you
+                                    accept
+                                    our<br> <a href="#">Terms of Use</a>
+                                    and <a href="#">Privacy Policy</a>.</div>
                             </div>
 
-                        </div>
-                    </form>
+                        </form>
+                    </div>
+                    <div class="register__line2">
+                        <hr>
+                    </div>
+                    <div class="register__line">
+                        <div class="line__log"></div>
+                        <div class="line__reg"></div>
+                    </div>
+                    <div class="register__title">
+                        <div class="title__log regTitle"><a href="#login">Login</a></div>
+                        <div class="title__reg regTitle"><a href="#register">Register</a> </div>
+                    </div>
                 </div>
-                <div class="reg" id="register">
-                    <div class="reg__title title">Create an Account</div>
-                    <form action="./auto.html">
-                        <div class="form__body">
-                            <div class="form__name">
-                                <div class="name__first">
-                                    <label for="firstName" class="name__title">First Name</label>
-                                    <input type="text" id="firstName" required>
-                                </div>
-                                <div class="name__last">
-                                    <label for="lastName" class="name__title">Last Name</label>
-                                    <input type="text" id="lastName" required>
-                                </div>
-                            </div>
 
-                            <div class="name__mail">
-                                <label for="e-mail" class="name__title">E-mail</label>
-                                <input type="email" id="e-mail" required>
-                            </div>
-                            <div class="name__male">
-                                <input type="radio" name="male" id="male">
-                                <label for="male" class="name__title">Male</label>
-                                <input type="radio" name="male" id="Female">
-                                <label for="Female" class="name__title">Female</label>
-                            </div>
-                            <div class="form__pass">
-                                <div class="name__first">
-                                    <label for="password" class="name__title">Password</label>
-                                    <input type="text" id="password" required>
-                                </div>
-                                <div class="name__last">
-                                    <label for="cPassword" class="name__title">Confirm Password </label>
-                                    <input type="text" id="cPassword" required>
-                                </div>
-                            </div>
-                            <div class="form__buton button__reg"><input type="submit" value="Register">
-                            </div>
 
-                        </div>
-                        <div class="form__political">By clicking the 'Sign Up' button, you confirm that you accept
-                            our<br> <a href="#">Terms of Use</a>
-                            and <a href="#">Privacy Policy</a>.</div>
-                </div>
-                </form>
             </div>
         </div>
     </div>
