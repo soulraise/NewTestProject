@@ -861,11 +861,25 @@ input::-webkit-inner-spin-button {
 }
 .reg:target{
     display: block;
+    animation: cool 1.5s;
+    
+    
 }
-div#login:target ~ .register__line .line__log{
+@keyframes cool {
+    0%{
+        transform: rotateY(180deg);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+
+  
+ 
+#login:target ~ .register__line .line__log{
     background:#FF2E63;
 }
-div#register:target ~ .register__line .line__reg{
+#register:target ~ .register__line .line__reg{
     background:#FF2E63;
 }
 .line__log{
