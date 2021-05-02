@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link
         href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rajdhani:wght@400;700&display=swap"
         rel="stylesheet">
@@ -25,7 +26,10 @@
                 <div class="nav__logo">
                     <img src="./imeg/auto/LOGOAuto.png" alt="logo avto">
                 </div>
-                <div>
+                <div class="header__burger">
+                    <span></span>
+                </div>
+                <div class="header__menu">
                     <ul class="header__nav">
                         <li class="nav__item"><a href="#">Home</a></li>
                         <li class="nav__item"><a title="На главную страницу" href="./index.html">About us</a></li>
@@ -34,31 +38,28 @@
                         <li class="nav__item"><a href="">Contacts</a></li>
                         <li class="nav__item"><a href="">How it Works</a></li>
                     </ul>
+                    <div>
+                        <ul class="nav__nav2">
+                            <li class="nav__item2 item__log"><a href="./autoReg.html#login">Login</a></li>
+                            <li class="nav__item2 item__reg"><span id="regButon"><a id="reg"
+                                        href="./autoReg.html#register">Register</a></span></li>
+                        </ul>
+                    </div>
                 </div>
-                <div>
-                    <ul class="nav__nav2">
-                        <li class="nav__item2 item__log"><a href="./autoReg.html#login">Login</a></li>
-                        <li class="nav__item2 item__reg"><span id="regButon"><a id="reg"
-                                    href="./autoReg.html#register">Register</a></span></li>
-                    </ul>
-                </div>
+
             </div>
         </div>
     </header>
     <section class="first">
         <div class="conteiner">
-            <div class="first_body">
-                <p class="first__text">Could you be our <br><span> next winner?</span></p>
-                <a title="buy car" href="#">
-                    <div class="firstButon"><span>Enter now</span> </div>
-                </a>
-                <div class="firstImg">
-                    <div class="first__col">
-                        <div class="col"></div>
-                    </div>
-                    <div class="first__img-div">
-                        <img class="first__img" src="./imeg/auto/auto.png" alt="avto">
-                    </div>
+            <div class="first__body">
+                <div class="first__text">
+                    <p class="text__text">Could you be our <br><span> next winner?</span></p>
+                    <div class="first__buton"> <a title="buy car" href="#">Enter now</a> </div>
+                </div>
+
+                <div class="first__img">
+                    <img class="img__item" src="./imeg/auto/auto2.png" alt="avto">
                 </div>
             </div>
         </div>
@@ -117,9 +118,9 @@
 
             <div class="how__title title">How it works</div>
             <div class="how__body">
-                <div class="how__row"><img src="./imeg/auto/icon/Vector.png" alt=""></div>
-                <div class="how__row2"><img src="./imeg/auto/icon/Vector.png" alt=""></div>
-                <div class="how__row3"><img src="./imeg/auto/icon/Vector.png" alt=""></div>
+                <div class="how__row row"><img src="./imeg/auto/icon/Vector.png" alt=""></div>
+                <div class="how__row2 row"><img src="./imeg/auto/icon/Vector.png" alt=""></div>
+                <div class="how__row3 row"><img src="./imeg/auto/icon/Vector.png" alt=""></div>
                 <div class="how__col">
                     <div class="col__icon">
                         <svg class="icon__vector">
@@ -225,6 +226,8 @@
             </div>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>

@@ -14,6 +14,11 @@ body{
     display: grid;
     grid-template: 1fr 1fr / 1fr 1fr 1fr;
     gap: 20px;
+    @media (max-width: 800px){
+        grid-template: 1fr 1fr / 1fr 1fr;
+         
+        }
+    
 }
 .grid__items{
     
@@ -26,7 +31,7 @@ body{
     grid-row: 1/2;
     position: relative;
 }
-.big_wraps{
+.big__wraps{
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -51,10 +56,12 @@ body{
 .item__img {
     width: 100%;
     height: 45%;
+    object-fit: cover;
 }
 .item__big img{
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 .item__dat{
     padding: 20px;
