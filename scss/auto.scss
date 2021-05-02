@@ -236,6 +236,9 @@ body{
 }
 .first{
     padding: 166px 0 0 0;
+    @media (max-width: 700px) {
+        padding: 66px 0 0 0;
+    }
 }
 .first__body{
    display: flex;
@@ -266,6 +269,10 @@ body{
     line-height: 60px;
     color: #343434;
     margin: 50px 0 0 0;
+    @media (max-width: 700px) {
+        font-size: 40px;
+        line-height: 50px;
+    }
     
 }
 .first__text span{
@@ -501,6 +508,10 @@ color: #343434;
     text-align: center;
     color: #343434;
     max-width: 400px;
+    @media (max-width:426px) {
+        font-size: 18px;
+        line-height: 25px;
+    }
     
 }
 .text__name{
@@ -571,6 +582,9 @@ color: #343434;
     margin: 0 auto;
     align-items: center;
     padding: 7px 0px;
+    @media (max-width: 872px) {
+       flex-direction: column;
+    }
 }
 .footer__logo{
     font-family: Rajdhani;
@@ -585,12 +599,24 @@ color: #343434;
 
 .footer__nav a{
     color: #FFFFFF;
+    @media (max-width: 872px) {
+        display: none;
+        margin: 0;
+    }
 }
 .footer__nav:first-child{
     margin: 0 15px 0 0;
+    @media (max-width: 872px) {
+        display: none;
+        margin: 0;
+    }
 }
 .footer__nav:last-child{
     margin: 0 0 0 15px;
+    @media (max-width: 872px) {
+        display: none;
+        margin: 0;
+    }
 }
 
 .auto2{
