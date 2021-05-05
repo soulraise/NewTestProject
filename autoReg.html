@@ -2,163 +2,174 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rajdhani:wght@400;700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="./css/auto.css">
-    <link rel="shortcut icon" href="./imeg/auto/icon.svg" type="image/x-icon">
-    <meta name="viewport" content="width=device-width">
-    <title>Avto</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rajdhani:wght@400;700&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="./css/auto.css">
+	<link rel="apple-touch-icon" sizes="180x180" href="./imeg/auto/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./imeg/auto/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./imeg/auto/favicon/favicon-16x16.png">
+	<link rel="manifest" href="./imeg/auto/favicon/site.webmanifest">
+	<link rel="mask-icon" href="./imeg/auto/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+	<title>Avto</title>
 </head>
 
 <body>
-    <div class="wrap">
-        <header class="header">
-            <div class="conteiner">
-                <div class="header__body">
-                    <div>
-                        <img src="./imeg/auto/LOGOAuto.png" alt="logo avto">
-                    </div>
-                    <div>
-                        <ul class="header__nav">
-                            <li class="nav__item"><a href="./auto.html">Home</a></li>
-                            <li class="nav__item"><a title="На главную страницу" href="./index.html">About us</a></li>
-                            <li class="nav__item"><a href="./auto2.html">Shop</a></li>
-                            <li class="nav__item"><a href="">Blog</a></li>
-                            <li class="nav__item"><a href="">Contacts</a></li>
-                            <li class="nav__item"><a href="">How it Works</a></li>
-                        </ul>
-                    </div>
-                    <div>
-                        <ul class="nav__nav2">
-                            <li class="nav__item item__log"><a href="#login">Login</a></li>
-                            <li class="nav__item item__reg"><span id="regButon"><a id="reg"
-                                        href="#register">Register</a></span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <div class="register">
-            <div class="conteiner">
-                <div class="registe__body">
+	<header class="header">
+		<div class="conteiner">
+			<div class="header__body">
+				<div class="nav__logo">
+					<img src="./imeg/auto/LOGOAuto.png" alt="logo avto">
+				</div>
+				<div class="header__burger">
+					<span></span>
+				</div>
+				<div class="header__menu">
+					<ul class="header__nav">
+						<li class="nav__item"><a href="#">Home</a></li>
+						<li class="nav__item"><a title="На главную страницу" href="./index.html">About us</a></li>
+						<li class="nav__item"><a href="./auto2.html">Shop</a></li>
+						<li class="nav__item"><a href="">Blog</a></li>
+						<li class="nav__item"><a href="">Contacts</a></li>
+						<li class="nav__item"><a href="">How it Works</a></li>
+					</ul>
+					<div>
+						<ul class="nav__nav2">
+							<li class="nav__item2 item__log"><a href="./autoReg.html#login">Login</a></li>
+							<li class="nav__item2 item__reg"><span id="regButon"><a id="reg"
+										href="./autoReg.html#register">Register</a></span></li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</header>
+	<div class="wrap">
+
+		<div class="register">
+			<div class="conteiner">
+				<div class="registe__body">
 
 
-                    <div class="reg" id="login">
-                        <div class="reg__title title">login in</div>
-                        <form action="./auto.html">
-                            <div class="form__body">
-                                <div class="name__mail login__mail">
-                                    <label for="e-mail" class="name__title">E-mail</label>
-                                    <input type="email" id="e-mail" required>
-                                </div>
-                                <div class="name__mail login__pass">
-                                    <label for="e-mail" class="name__title">Password</label>
-                                    <input type="text" id="e-mail" required>
-                                </div>
-                                <div class="login__forgot"><a href="#">Forgot your password?</a></div>
-                                <div class="marks__col login__rememb">
-                                    <input type="checkbox" id="item1" class="checkbox__input">
-                                    <div class="marks__checkbox"></div>
-                                    <a href="#" class="col__name "><label for="item1">Remember me </label></a>
-                                </div>
-                                <div class="form__buton button__reg"><input type="submit" value="Log in">
-                                </div>
+					<div class="reg" id="login">
+						<div class="reg__title title">login in</div>
+						<form action="./auto.html">
+							<div class="form__body">
+								<div class="name__mail login__mail">
+									<label for="e-mail" class="name__title">E-mail</label>
+									<input type="email" id="e-mail" required>
+								</div>
+								<div class="name__mail login__pass">
+									<label for="e-mail" class="name__title">Password</label>
+									<input type="text" id="e-mail" required>
+								</div>
+								<div class="login__forgot"><a href="#">Forgot your password?</a></div>
+								<div class="marks__col login__rememb">
+									<input type="checkbox" id="item1" class="checkbox__input">
+									<div class="marks__checkbox"></div>
+									<a href="#" class="col__name "><label for="item1">Remember me </label></a>
+								</div>
+								<div class="form__buton button__reg"><input type="submit" value="Log in">
+								</div>
 
-                            </div>
-                        </form>
-                    </div>
-                    <div class="reg" id="register">
-                        <div class="reg__title title">Create an Account</div>
-                        <form action="./auto.html">
-                            <div class="form__body">
-                                <div class="form__name">
-                                    <div class="name__first">
-                                        <label for="firstName" class="name__title">First Name</label>
-                                        <input type="text" id="firstName" required>
-                                    </div>
-                                    <div class="name__last">
-                                        <label for="lastName" class="name__title">Last Name</label>
-                                        <input type="text" id="lastName" required>
-                                    </div>
-                                </div>
+							</div>
+						</form>
+					</div>
+					<div class="reg" id="register">
+						<div class="reg__title title">Create an Account</div>
+						<form action="./auto.html">
+							<div class="form__body">
+								<div class="form__name">
+									<div class="name__first">
+										<label for="firstName" class="name__title">First Name</label>
+										<input type="text" id="firstName" required>
+									</div>
+									<div class="name__last">
+										<label for="lastName" class="name__title">Last Name</label>
+										<input type="text" id="lastName" required>
+									</div>
+								</div>
 
-                                <div class="name__mail">
-                                    <label for="e-mail" class="name__title">E-mail</label>
-                                    <input type="email" id="e-mail" required>
-                                </div>
-                                <div class="name__male">
-                                    <input type="radio" name="male" id="male">
-                                    <label for="male" class="name__title">Male</label>
-                                    <input type="radio" name="male" id="Female">
-                                    <label for="Female" class="name__title">Female</label>
-                                </div>
-                                <div class="form__pass">
-                                    <div class="name__first">
-                                        <label for="password" class="name__title">Password</label>
-                                        <input type="text" id="password" required>
-                                    </div>
-                                    <div class="name__last">
-                                        <label for="cPassword" class="name__title">Confirm Password </label>
-                                        <input type="text" id="cPassword" required>
-                                    </div>
-                                </div>
-                                <div class="form__buton button__reg"><input type="submit" value="Register">
-                                </div>
-                                <div class="form__political">By clicking the 'Sign Up' button, you confirm that you
-                                    accept
-                                    our<br> <a href="#">Terms of Use</a>
-                                    and <a href="#">Privacy Policy</a>.</div>
-                            </div>
+								<div class="name__mail">
+									<label for="e-mail" class="name__title">E-mail</label>
+									<input type="email" id="e-mail" required>
+								</div>
+								<div class="name__male">
+									<input type="radio" name="male" id="male">
+									<label for="male" class="name__title">Male</label>
+									<input type="radio" name="male" id="Female">
+									<label for="Female" class="name__title">Female</label>
+								</div>
+								<div class="form__pass">
+									<div class="name__first">
+										<label for="password" class="name__title">Password</label>
+										<input type="text" id="password" required>
+									</div>
+									<div class="name__last">
+										<label for="cPassword" class="name__title">Confirm Password </label>
+										<input type="text" id="cPassword" required>
+									</div>
+								</div>
+								<div class="form__buton button__reg"><input type="submit" value="Register">
+								</div>
+								<div class="form__political">By clicking the 'Sign Up' button, you confirm that you
+									accept
+									our<br> <a href="#">Terms of Use</a>
+									and <a href="#">Privacy Policy</a>.</div>
+							</div>
 
-                        </form>
-                    </div>
-                    <div class="register__line2">
-                        <hr>
-                    </div>
-                    <div class="register__line">
-                        <div class="line__log"></div>
-                        <div class="line__reg"></div>
-                    </div>
-                    <div class="register__title">
-                        <div class="title__log regTitle"><a href="#login">Login</a></div>
-                        <div class="title__reg regTitle"><a href="#register">Register</a> </div>
-                    </div>
-                </div>
+						</form>
+					</div>
+					<div class="register__line2">
+						<hr>
+					</div>
+					<div class="register__line">
+						<div class="line__log"></div>
+						<div class="line__reg"></div>
+					</div>
+					<div class="register__title">
+						<div class="title__log regTitle"><a href="#login">Login</a></div>
+						<div class="title__reg regTitle"><a href="#register">Register</a> </div>
+					</div>
+				</div>
 
 
-            </div>
-        </div>
-    </div>
-    <footer>
-        <div class="footer">
-            <div class="conteiner">
-                <div class="footer__body">
-                    <div class="footer__logo">LogooAuto</div>
-                    <div>
-                        <ul class="header__nav">
-                            <li class="footer__nav nav__item"><a title="На главную страницу"
-                                    href="./index.html">Home</a>
-                            </li>
-                            <li class="footer__nav nav__item"><a href="">About us</a></li>
-                            <li class="footer__nav nav__item"><a href="./auto2.html">Shop</a></li>
-                            <li class="footer__nav nav__item"><a href="">Blog</a></li>
-                            <li class="footer__nav nav__item"><a href="">Contacts</a></li>
-                            <li class="footer__nav nav__item"><a href="">How it Works</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    </div>
+			</div>
+		</div>
+		<footer>
+			<div class="footer">
+				<div class="conteiner">
+					<div class="footer__body">
+						<div class="footer__logo">LogooAuto</div>
+						<div>
+							<ul class="header__nav">
+								<li class="footer__nav nav__item"><a title="На главную страницу"
+										href="./index.html">Home</a>
+								</li>
+								<li class="footer__nav nav__item"><a href="">About us</a></li>
+								<li class="footer__nav nav__item"><a href="./auto2.html">Shop</a></li>
+								<li class="footer__nav nav__item"><a href="">Blog</a></li>
+								<li class="footer__nav nav__item"><a href="">Contacts</a></li>
+								<li class="footer__nav nav__item"><a href="">How it Works</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+	<script src="./js/script.js"></script>
 </body>
 
 </html>
